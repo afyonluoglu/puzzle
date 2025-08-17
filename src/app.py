@@ -239,7 +239,7 @@ class JigsawPuzzleGame(CTk):
             preview_label = CTkLabel(preview_window, image=ctk_image, text="")
             preview_label.image = ctk_image
             preview_label.pack(expand=True, fill="both", padx=10, pady=10)
-        pil_image.close()  
+        # pil_image.close()  
 
 
     def start_new_game(self):
