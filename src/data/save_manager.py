@@ -53,13 +53,3 @@ class SaveManager:
                 print(f"Error loading game {self.save_file}: {e}")
                 return None
 
-    def has_saved_game_OLD(self):
-        """Check if there's a saved game"""
-        return os.path.exists(self.save_file)
-    
-    def delete_saved_game_OLD(self):
-        """Delete the saved game file"""
-        if os.path.exists(self.save_file):
-            os.remove(self.save_file)
-            return True
-        return False

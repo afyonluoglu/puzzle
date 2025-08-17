@@ -59,7 +59,3 @@ class ScoreManager:
             return 0
         return self.scores[0]['score']
     
-    def clear_scores_OLD(self):
-        """Clear all high scores"""
-        self.scores = []
-        self._save_scores()
