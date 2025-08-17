@@ -1,0 +1,6 @@
+Background music                background_music.mp3
+                                piece_placed.mp3
+Sound effect 'piece_placed'     piece_placed.mp3
+Sound effect 'level_complete'   level_complete.mp3
+Sound effect 'hint_used'        hint_used.mp3
+
